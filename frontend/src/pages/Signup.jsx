@@ -27,7 +27,7 @@ function Signup(){
             return handleError('name, email, password are required')
         }
         try{
-            const url = 'http://localhost:8080/auth/signup'
+            const url = 'https://auth-app-pearl-seven.vercel.app/auth/signup'
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
