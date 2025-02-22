@@ -13,6 +13,7 @@ app.use(cors());
 app.use('/auth', AuthRouter)
 app.use('/products', ProductRouter)
 
+//hi
 app.listen(PORT, ()=>{
     console.log(`server is running on ${PORT}`);
 <<<<<<< HEAD
