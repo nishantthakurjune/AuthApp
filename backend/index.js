@@ -15,7 +15,11 @@ app.use('/products', ProductRouter)
 
 app.listen(PORT, ()=>{
     console.log(`server is running on ${PORT}`);
+<<<<<<< HEAD
 } )
 app.get("/ping", (req, res)=>{
     res.json("pong")
 })
+=======
+} )
+>>>>>>> 19e67dc53513f615d31baebb7036bfe9d1118b97

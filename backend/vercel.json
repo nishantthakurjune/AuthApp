@@ -9,7 +9,11 @@
     "routes": [
         {
             "src" : "/(.*)",
+<<<<<<< HEAD
             "dest" : "/"
+=======
+            "dest" : "index.html"
+>>>>>>> 19e67dc53513f615d31baebb7036bfe9d1118b97
         }
     ]
 }
